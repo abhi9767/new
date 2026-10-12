@@ -1,0 +1,30 @@
+Ref,Description,Qty,Unit Price (USD),Line Total (USD),Notes
+U1,ESP32-S3 DevKitC-1,1,12.00,12.00,Main controller
+U2,MPU-6050 breakout,1,3.00,3.00,Acceleration/gyro/tilt sensing
+U3,BME280 breakout,1,4.00,4.00,Temperature/humidity/pressure
+U4,SCD41 breakout,1,40.00,40.00,CO2 sensing
+U5,PMS5003 particulate sensor,1,18.00,18.00,PM1/PM2.5/PM10 sensing
+U6,LoRa transceiver module,1,10.00,10.00,Long-range node communication; select locally permitted band
+U7,GPS module,1,8.00,8.00,Location/time
+U8,OLED 0.96in I2C display,1,5.00,5.00,Local status display
+S1,S2,Capacitive soil-moisture sensor,2,3.00,6.00,Analog inputs
+S3,Water-level sensor,1,4.00,4.00,Analog water-level input
+S4,Tipping-bucket rain gauge,1,8.00,8.00,Rainfall pulse input
+J1,J2,2x22 2.54mm pin headers,2,1.50,3.00,ESP32-S3 carrier headers
+J3,1x4 2.54mm header,1,0.50,0.50,I2C/OLED
+J4,1x4 2.54mm header,1,0.50,0.50,GPS UART
+J5,1x4 2.54mm header,1,0.50,0.50,PMS5003
+J6,1x7 2.54mm header,1,0.75,0.75,LoRa SPI
+J7,J8,1x3 2.54mm header,2,0.35,0.70,Analog sensor inputs
+J9,1x3 2.54mm header,1,0.35,0.35,Rain gauge
+J10,1x2 2.54mm header,1,0.30,0.30,5V/GND auxiliary power
+PCB,2-layer custom PCB fabrication,1,28.00,28.00,Prototype PCB allowance
+P1,USB-C 5V power/protection parts,1,8.00,8.00,Power input, fuse/TVS/connectors
+P2,3.3V regulator and decoupling parts,1,7.00,7.00,3.3V sensor rail
+P3,Li-ion battery + charger/protection,1,15.00,15.00,Portable power
+P4,5V boost/power module,1,6.00,6.00,PMS5003/power rail
+M1,Outdoor enclosure,1,10.00,10.00,Weather-resistant prototype enclosure
+C1,Wiring/connectors/terminal accessories,1,5.00,5.00,Sensor field wiring
+C2,Standoffs/screws/mounting hardware,1,3.00,3.00,Mechanical assembly
+C3,Contingency/shipping allowance,1,8.25,8.25,Price variation/shipping buffer
+TOTAL,,,210.00,210.00,Target project BOM

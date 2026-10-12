@@ -1,0 +1,25 @@
+EESchema Schematic File Version 4
+LIBS:power
+LIBS:device
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+Sheet 1 1
+Title "DisasterSense Rev-B Multi-Hazard Sensor Hub"
+Comment1 "ESP32-S3 carrier with modular I2C, UART, SPI and analog sensor connectors"
+Comment2 "Prototype design for Hack Club Gadget Market"
+Comment3 "Verify exact DevKitC-1 variant and local LoRa frequency before deployment"
+$EndDescr
+Text Notes 900 1000 0    120  ~ 24
+DISASTERSENSE REV-B
+Text Notes 900 1250 0    70   ~ 14
+ESP32-S3 carrier / multi-hazard sensor interface
+Text Notes 900 1700 0    60   ~ 12
+J1/J2: ESP32-S3-DevKitC-1 2x22 headers
+Text Notes 900 1950 0    60   ~ 12
+J3: I2C/OLED | J4: GPS UART | J5: PMS5003 UART
+Text Notes 900 2200 0    60   ~ 12
+J6: LoRa SPI | J7: Soil ADC | J8: Water ADC | J9: Rain pulse | J10: 5V power
+Text Notes 900 2600 0    55   ~ 11
+Nets: +3V3, +5V, GND, I2C_SDA, I2C_SCL, GPS_TX/RX, PMS_TX/RX, LoRa MOSI/MISO/SCK/CS/DIO1, SOIL_ADC, WATER_ADC, RAIN_IN
+$EndSCHEMATC
